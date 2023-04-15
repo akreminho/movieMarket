@@ -1,0 +1,15 @@
+.footer{
+    background-color: rgb(8, 8, 8);
+    opacity: 50%;
+
+}
+.footer_title{
+padding-top: 10px;
+color: white;
+text-align: center;
+}
+.footer_subtitle{
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;;
+}
