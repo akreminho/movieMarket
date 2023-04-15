@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import { Rating } from '@mui/material'
 const Navbar = () => {
     return (
         <div>
@@ -61,10 +62,9 @@ const Navbar = () => {
 
 
                     </li>
-                    <li>
+                    <li className='rating_ui'>
                         <h1 className="rating">Rating</h1>
-
-
+                        <Rating name="no-value" value={null} />
                     </li>
 
                 </ul>
